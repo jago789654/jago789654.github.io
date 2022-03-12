@@ -87,6 +87,4 @@ Total 3 (delta 0), réutilisés 0 (delta 0)
 To github.com:jago789654/projet-1.git
  * [new branch]      main -> main
 La branche 'main' est paramétrée pour suivre la branche distante 'main' depuis 'origin'.
-tony@tony-ThinkPad-T520:~/wild/quests/shell/projet#1$ git branch testing
-tony@tony-ThinkPad-T520:~/wild/quests/shell/projet#1$ git branch css
-tony@tony-ThinkPad-T520:~/wild/quests/shell/projet#1$ git branch js
+
