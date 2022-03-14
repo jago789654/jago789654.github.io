@@ -14,13 +14,13 @@ input {
     height: 35px;
     border-radius : 5px;
     padding: 15px;
+    border : none;
 }
 
 form h1:after{
     content : "";
     display: block;
     border : 1px solid black;
-    margin-bottom: 15px;
 }
 
 form h1 {
@@ -28,11 +28,28 @@ form h1 {
 }
 
 textarea {
-    padding: 15px;;
+    border: none;
+    padding: 15px;
     height: 150px;
     resize: none;
+    border-radius: 5px;
 }
 
 input[type="submit"] {
     margin-top : 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding : initial;
+    font-size: 25px;
+}
+
+address {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
 }

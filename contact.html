@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spa Détentéo</title>
-    <link rel="stylesheet" href="style.css">
-    <!--<link rel="steelsheet" href="secret_style.css">!-->
-    <script type="text/javascrit" src="script.js"></script>
-    <!--<script type="text/javascrit" src="secret_script.js"></script>!-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <form action="form-contact">
-        <h1>Contact</h1>
-        <input type="text" placeholder="Nom">
-        <input type="text" placeholder="Prénom">
-        <input type="text" placeholder="Adresse">
-        <input type="text" placeholder="Code Postal">
-        <input type="mail" placeholder="Email">
-        <input type="phone" placeholder="Téléphone">
-        <textarea placeholder="Votre message ... "></textarea>
-        <input type="submit">
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactez-nous</title>
+        <link rel="stylesheet" href="style.css">
+        <!--<link rel="steelsheet" href="secret_style.css">!-->
+        <script type="text/javascrit" src="script.js"></script>
+        <!--<script type="text/javascrit" src="secret_script.js"></script>!-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <form id="form-contact">
+            <h1>Contact</h1>
+            <input type="text" placeholder="Nom" required>
+            <input type="text" placeholder="Prénom" required >
+            <input type="text" placeholder="Adresse" required>
+            <input type="text" placeholder="Code Postal" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Téléphone" required>
+            <textarea placeholder="Votre message ... " required></textarea>
+            <input type="submit">
+        </form>
+
+        <address>
+            <h3>adresse :</h3>
+            4 rue Baron 
+            44400 Nantes
+        </address>
+      
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.2655997936095!2d-1.5497400846741414!3d47.211385179160395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805eeb04e035b03%3A0xfe166fb643fd3846!2s4%20Rue%20Baron%2C%2044000%20Nantes!5e0!3m2!1sfr!2sfr!4v1647295194401!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </body>
 </html>
