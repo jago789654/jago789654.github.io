@@ -1,17 +1,38 @@
 
 form {
+    margin : 50px 25px;
     display: flex ;
     flex-direction: column;
     gap : 10px;
     padding : 15px 10px;
-    background-color: azure; 
-    border-radius: 10px;  
+    background-color: var(--primary-color); 
+    border-radius: 5px;  
+
 }
 
 input {
     height: 35px;
+    border-radius : 5px;
+    padding: 15px;
 }
 
-form input h1 {
-    color : blue;
+form h1:after{
+    content : "";
+    display: block;
+    border : 1px solid black;
+    margin-bottom: 15px;
+}
+
+form h1 {
+    color : gray;
+}
+
+textarea {
+    padding: 15px;;
+    height: 150px;
+    resize: none;
+}
+
+input[type="submit"] {
+    margin-top : 20px;
 }
