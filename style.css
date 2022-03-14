@@ -1,5 +1,7 @@
 /*GENERAL & VARIABLES*/
 
+@import url(contact.css);
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,6 +24,7 @@ h1 {
     padding: 0;
   }
 
+  
   :root {
       --primary-color: #E6F9AF;
       --secondary-color: #8BBEB2;
