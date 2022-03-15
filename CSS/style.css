@@ -31,15 +31,10 @@ body {
 
   
   :root {
-      --primary-color: #E6F9AF;
-      --secondary-color: #8BBEB2;
-      --font-color: #0D0630;
-      --tertiary-color: #384E77;
-      --fourth-color: #18314F;
-      --spacing: 4px;
-      --spacing2: 8px;
-      --spacing4: 16px;
-      --little-spacing: 2px;
+      --primary-color: #8ECAE6;
+      --secondary-color: #219EBC;
+      --font-size:16px;
+      --spacing: 8px;
       --title-font: 'Jost', sans-serif;
       --principal-font: 'Noto Sans', sans-serif;
   } 
