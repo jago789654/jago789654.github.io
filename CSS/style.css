@@ -24,22 +24,30 @@ body {
     margin: 0;
   }
 
+  h2{
+      font-size: 1.5rem;
+      margin: 0;
+      font-weight: bold;
+  }
+
+  h3{
+      font-size: 1.2rem;
+  }
+
   ul {
     margin: 0;
     padding: 0;
   }
 
+  a {
+    text-decoration: none;
+    color: white; 
+   }
   
   :root {
-      --primary-color: #E6F9AF;
-      --secondary-color: #8BBEB2;
-      --font-color: #0D0630;
-      --tertiary-color: #384E77;
-      --fourth-color: #18314F;
-      --spacing: 4px;
-      --spacing2: 8px;
-      --spacing4: 16px;
-      --little-spacing: 2px;
+      --primary-color: #8ECAE6;
+      --secondary-color: #219EBC;
+      --spacing: 8px;
       --title-font: 'Jost', sans-serif;
       --principal-font: 'Noto Sans', sans-serif;
   } 
