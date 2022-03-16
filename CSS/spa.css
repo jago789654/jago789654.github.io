@@ -1,0 +1,63 @@
+
+body h1 {
+    background-color: lightblue;
+    margin-bottom:  25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bloc-spa h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bloc-spa {
+    display: flex;
+    gap : 10px;
+    background-color: lightblue;
+    padding : 0 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.bloc-spa div.bloc-gauche {
+    flex : 1;
+    min-width: 60%;
+    padding-bottom: 15px;
+}
+
+.bloc-spa div.bloc-droite {
+    flex : 1;
+    min-width: 25%;
+}
+
+div.bloc-droite img {
+    width: 45px;
+    height:auto;
+}
+
+.bloc-gauche img {
+    width: 100%;
+    height : auto;
+    border-radius: 5px;
+}
+
+p.toogle-paragraphe {
+    display : none;
+   
+}
+
+.bloc-gauche p {
+    font-size: 13px;
+    text-align: center;
+    width: 35ch;
+}
+
+img.rotate-btn {
+    transform: rotate(180deg);
+    transition: .4s ease-in-out all;
+    width: 20px;
+    height: auto;
+}
+
+

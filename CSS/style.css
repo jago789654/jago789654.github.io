@@ -1,6 +1,7 @@
 /*GENERAL & VARIABLES*/
 
 @import url(contact.css);
+@import url(spa.css);
 
 * {
     box-sizing: border-box;
