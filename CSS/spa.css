@@ -42,15 +42,15 @@ div.bloc-droite img {
     border-radius: 5px;
 }
 
-p.toogle-paragraphe {
-    display : none;
-   
+.bloc-gauche p.toogle-paragraphe {
+    display : initial;
 }
 
 .bloc-gauche p {
     font-size: 13px;
     text-align: center;
     width: 35ch;
+    display : none;
 }
 
 img.rotate-btn {
