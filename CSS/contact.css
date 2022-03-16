@@ -1,38 +1,41 @@
 
 form {
-    margin : 50px 25px;
     display: flex ;
     flex-direction: column;
     gap : 10px;
     padding : 15px 10px;
-    background-color: var(--primary-color); 
+    background-color: rgb(171, 198, 238); 
     border-radius: 5px;  
-
 }
 
 input {
-    height: 35px;
+    height: 30px;
     border-radius : 5px;
     padding: 15px;
-    border : none;
+    outline: none;
 }
 
 form h1:after{
     content : "";
     display: block;
     border : 1px solid black;
+    margin-bottom: 20px;
+}
+.div-form {
+    display : flex;
+    flex-direction: column;
 }
 
 form h1 {
-    color : gray;
+    
 }
 
 textarea {
-    border: none;
     padding: 15px;
     height: 150px;
     resize: none;
     border-radius: 5px;
+    outline: initial;
 }
 
 input[type="submit"] {

@@ -1,12 +1,12 @@
 /*GENERAL & VARIABLES*/
 
 @import url(contact.css);
+@import url(spa.css);
 @import url(footer.css);
 @import url(largeScreen.css);
 @import url(massage.css);
 @import url(smallScreen.css);
 @import url(spa.css);
-
 
 * {
     box-sizing: border-box;
