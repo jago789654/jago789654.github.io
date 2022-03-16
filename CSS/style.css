@@ -24,11 +24,27 @@ body {
     margin: 0;
   }
 
+  h2{
+      font-size: 1.5rem;
+      margin: 0;
+      font-weight: bold;
+  }
+
+  h3{
+      font-size: 1.1rem;
+      margin: 0;
+  }
+
   ul {
     margin: 0;
     padding: 0;
   }
-  
+
+  a {
+    text-decoration: none;
+    color: white; 
+   }
+
   :root {
       --primary-color: #8ECAE6;
       --secondary-color: #219EBC;
