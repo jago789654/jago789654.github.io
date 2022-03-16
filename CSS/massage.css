@@ -1,0 +1,75 @@
+
+ .pad {
+    height: 100px;
+  }
+
+body {
+    margin : 25px;
+}
+
+.bloc-spa h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body h2 {
+    background-color: var(--secondary-color);
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    color : white;
+}
+
+section.card1, section.card2 {
+    position : relative;
+    display: flex;
+    align-items: flex-start; 
+    background-color: gray;
+}
+
+section.card2 {
+    height: 45vh;
+}
+
+section.card1 img {
+    position: relative;
+    min-width: 40%;
+    height: auto;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+section.card1 p {
+    min-width: 40%;
+    position: relative;
+    z-index: 5;
+    top : 100px;
+    right : 50px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding : 10px;
+}
+
+section.card2 img {
+    position: relative;
+    min-width: 60%;
+    height: auto;
+    z-index: 1;
+    right: 50px;
+    border-radius: 5px;
+}
+
+section.card2 p {
+    min-width: 60%;
+    position: relative;
+    top : -100px;
+    right : -50px;
+    background-color: var(--primary-color);
+    z-index: 5;
+    border-radius: 5px;
+    padding : 10px;
+}
+
+p.text-tarif {
+    text-align: center;
+    background-color: red;

@@ -3,8 +3,12 @@ nav img{
     width: 3rem;
 }
  
+
+
 .main-navigation{
     background-color: var(--secondary-color);
+    font-family: var(--principal-font);
+    text-shadow: var(--shadow);
     position: fixed;
     top : 0;
     width: 100%;
@@ -32,10 +36,6 @@ nav img{
     padding: .3em;
     text-decoration: none;
     font-size: 20px;
-}
- 
-.menu li a:hover{
-    color: #8ecae6;
 }
  
 .menu-checkbox:checked ~ .menu{

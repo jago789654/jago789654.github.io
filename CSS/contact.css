@@ -1,3 +1,6 @@
+.pad {
+    height: 100px;
+}
 
 form {
     display: flex ;
