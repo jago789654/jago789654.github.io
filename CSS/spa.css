@@ -1,11 +1,15 @@
 
+.pad {
+    height: 100px;
+}
+
 body {
     margin : 15px;
 }
 
 body h1 {
     background-color: var(--secondary-color);
-    margin-bottom:  25px;
+    margin-bottom: 25px;
     border-radius: 5px;
     text-align: center;
 }
@@ -39,6 +43,8 @@ body h1 {
 div.bloc-droite img {
     width: 45px;
     height:auto;
+    position : relative;
+    top : 75px;
 }
 
 .bloc-gauche img {
@@ -69,4 +75,9 @@ div.bloc-droite {
     display : flex;
     flex-direction: column;
     align-items: center;
+}
+
+div.bloc-droite h2 { 
+    position: relative;
+    right : -10px;
 }
