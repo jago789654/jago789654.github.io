@@ -1,0 +1,53 @@
+/* navigation */
+nav img{
+    width: 3rem;
+}
+ 
+.main-navigation{
+    background-color: var(--secondary-color);
+    position: fixed;
+    top : 0;
+    width: 100%;
+    z-index: 5;
+}
+ 
+.nav-wrapper{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+}
+ 
+.menu{
+    display: none;
+    flex-basis: 100%;
+    list-style: none;
+}
+ 
+.menu li a{
+    display: flex;
+    justify-content: center;
+    padding: .3em;
+    text-decoration: none;
+    font-size: 20px;
+}
+ 
+.menu li a:hover{
+    color: #8ecae6;
+}
+ 
+.menu-checkbox:checked ~ .menu{
+    display: block;
+}
+ 
+.menu-checkbox{
+    opacity: 0;
+    position: absolute;
+    top: -5000px;
+}
+ 
+.menu-toggle{
+    font-size: 20px;
+}

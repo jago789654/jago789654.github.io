@@ -1,6 +1,10 @@
 
+body {
+    margin : 15px;
+}
+
 body h1 {
-    background-color: lightblue;
+    background-color: var(--secondary-color);
     margin-bottom:  25px;
     border-radius: 5px;
     text-align: center;
@@ -9,12 +13,13 @@ body h1 {
 .bloc-spa h2 {
     font-size: 15px;
     font-weight: bold;
+    margin : 15px 0;
 }
 
 .bloc-spa {
     display: flex;
     gap : 10px;
-    background-color: lightblue;
+    background-color: var(--primary-color);
     padding : 0 15px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -22,18 +27,20 @@ body h1 {
 
 .bloc-spa div.bloc-gauche {
     flex : 1;
-    min-width: 60%;
+    min-width: 80%;
     padding-bottom: 15px;
 }
 
 .bloc-spa div.bloc-droite {
     flex : 1;
-    min-width: 25%;
+    min-width: 15%;
 }
 
 div.bloc-droite img {
     width: 45px;
     height:auto;
+    position : relative;
+    top : 60px;
 }
 
 .bloc-gauche img {
@@ -60,4 +67,13 @@ img.rotate-btn {
     height: auto;
 }
 
+div.bloc-droite {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+div.bloc-droite h2 { 
+    position: relative;
+    right : -10px;
+}
