@@ -1,4 +1,8 @@
 
+ .pad {
+    height: 100px;
+  }
+
 body {
     margin : 25px;
 }
@@ -69,4 +73,3 @@ section.card2 p {
 p.text-tarif {
     text-align: center;
     background-color: red;
-}

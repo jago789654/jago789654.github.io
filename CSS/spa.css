@@ -1,4 +1,8 @@
 
+.pad {
+    height: 100px;
+}
+
 body {
     margin : 15px;
 }
