@@ -3,8 +3,12 @@ nav img{
     width: 3rem;
 }
  
+
+
 .main-navigation{
     background-color: var(--secondary-color);
+    font-family: var(--principal-font);
+    text-shadow: var(--shadow);
     position: fixed;
     top : 0;
     width: 100%;
@@ -16,7 +20,7 @@ nav img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     padding: 10px;
 }
  
@@ -34,10 +38,6 @@ nav img{
     font-size: 20px;
 }
  
-.menu li a:hover{
-    color: #8ecae6;
-}
- 
 .menu-checkbox:checked ~ .menu{
     display: block;
 }
@@ -49,5 +49,7 @@ nav img{
 }
  
 .menu-toggle{
-    font-size: 20px;
+    font-size: 1.5rem;
+    color: white;
+
 }
