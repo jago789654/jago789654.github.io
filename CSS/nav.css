@@ -16,7 +16,7 @@ nav img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     padding: 10px;
 }
  
@@ -49,5 +49,7 @@ nav img{
 }
  
 .menu-toggle{
-    font-size: 20px;
+    font-size: 1.5rem;
+    color: white;
+
 }
