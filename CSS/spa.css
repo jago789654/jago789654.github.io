@@ -4,7 +4,7 @@ body {
 }
 
 body h1 {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     margin-bottom:  25px;
     border-radius: 5px;
     text-align: center;
@@ -27,13 +27,13 @@ body h1 {
 
 .bloc-spa div.bloc-gauche {
     flex : 1;
-    min-width: 60%;
+    min-width: 80%;
     padding-bottom: 15px;
 }
 
 .bloc-spa div.bloc-droite {
     flex : 1;
-    min-width: 25%;
+    min-width: 15%;
 }
 
 div.bloc-droite img {
@@ -65,4 +65,8 @@ img.rotate-btn {
     height: auto;
 }
 
-
+div.bloc-droite {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
