@@ -7,6 +7,7 @@
 @import url(massage.css);
 @import url(smallScreen.css);
 @import url(spa.css);
+@import url(nav.css);
 
 * {
     box-sizing: border-box;
