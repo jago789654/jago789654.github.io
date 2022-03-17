@@ -8,6 +8,7 @@
 @import url(smallScreen.css);
 @import url(spa.css);
 @import url(nav.css);
+@import url(index.css);
 
 * {
     box-sizing: border-box;
