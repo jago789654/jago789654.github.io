@@ -88,10 +88,7 @@ div.bloc-droite h2 {
     /* top : 0; */
 }
 
-
-
-
-
+/* ================================ */
 
 div.bloc-droite {
     background-color: yellow;
@@ -121,4 +118,9 @@ div.bloc-droite {
 
     background-color: blue;
     min-width: 60vw;
+}
+
+
+.bloc-massage {
+    
 }
