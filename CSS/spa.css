@@ -27,6 +27,8 @@ body h1 {
     padding : 0 15px;
     border-radius: 5px;
     margin-bottom: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .bloc-spa div.bloc-gauche {
