@@ -47,6 +47,7 @@ div.bloc-droite img {
     height:auto;
     position : relative;
     top : 75px;
+    transition: .4s ease-in-out all;
 }
 
 .bloc-gauche img {
@@ -71,6 +72,13 @@ img.rotate-btn {
     transition: .4s ease-in-out all;
     width: 20px;
     height: auto;
+}
+
+img.reverse-down-btn {
+    transform: rotate(180deg);
+    transition: .4s ease-in-out all;
+    width: 20px;
+    height: auto;   
 }
 
 div.bloc-droite {
