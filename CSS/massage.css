@@ -4,82 +4,64 @@
 }
 
 body {
-    margin : 15px;
+    margin : 1rem;
 }
 
 body h1 {
     background-color: var(--secondary-color);
-    margin-bottom: 25px;
-    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    border-radius: 0.4rem;
     text-align: center;
 }
 
-.bloc-spa h2 {
-    font-size: 15px;
-    font-weight: bold;
-    margin : 15px 0;
-}
-
-.bloc-spa {
+.bloc-massage {
     display: flex;
-    gap : 10px;
-    background-color: var(--primary-color);
-    padding : 0 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    flex-direction: column;
+    background-color: var(--primary-color); 
+    padding : 0.5rem 0.8rem 0 0.8rem;
+    border-radius: 0.4rem;
+    margin: 0  1rem 1rem 1rem;
 }
 
-.bloc-spa div.bloc-gauche {
+.bloc-massage div.bloc-titre {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.9rem;
+}
+
+.bloc-massage div.bloc-img {
+    display: flex;
     flex : 1;
-    min-width: 80%;
-    padding-bottom: 15px;
+    gap : 0.6rem;
+    margin-bottom : 1rem;
 }
 
-.bloc-spa div.bloc-droite {
-    flex : 1;
-    min-width: 15%;
-}
-
-div.bloc-droite img {
-    width: 45px;
-    height:auto;
-    position : relative;
-    top : 75px;
-}
-
-.bloc-gauche img {
-    width: 100%;
+div.bloc-img img:nth-child(1) {
+    width : 65vw;
     height : auto;
-    border-radius: 5px;
+    flex : 1;
 }
 
-.bloc-gauche p.toogle-paragraphe {
+div.bloc-img img:nth-child(2) {
+    transition: .4s ease-in-out all;
+    width : 1.8rem;
+    height : 1.8rem;
+    align-self : center;
+}
+
+.bloc-massage p.toogle-paragraphe {
     display : initial;
-}
-
-.bloc-gauche p {
-    font-size: 13px;
-    text-align: center;
-    width: 35ch;
-    display : none;
 }
 
 img.rotate-btn {
     transform: rotate(180deg);
     transition: .4s ease-in-out all;
-    width: 20px;
-    height: auto;
 }
 
-div.bloc-droite {
-    display : flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-div.bloc-droite h2 { 
-    position: relative;
-    right : -10px;
+.bloc-massage p {
+    font-size: 0.9rem;
+    display : none;
+    margin-bottom: 1rem;
+    width: clamp( 120px, 100%, 510px);
+    text-align: justify;
 }
