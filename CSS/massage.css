@@ -62,6 +62,6 @@ img.rotate-btn {
     font-size: 0.9rem;
     display : none;
     margin-bottom: 1rem;
-    width: clamp( 120px, 89%, 400px);
+    width: clamp( 120px, 100%, 510px);
     text-align: justify;
 }
