@@ -22,7 +22,6 @@ body h1 {
     border-radius: 0.4rem;
     margin: 0  1rem 1rem 1rem;
     box-shadow: var(--shadow);
-    opacity: 0.8;
 }
 
 .bloc-massage div.bloc-titre {
@@ -46,7 +45,6 @@ div.bloc-img img:nth-child(1) {
     width : 65vw;
     height : auto;
     flex : 1;
-    opacity: 0.9;
     border-radius: 5px;;
 }
 
@@ -72,4 +70,58 @@ img.rotate-btn {
     margin-bottom: 1rem;
     width: clamp( 120px, 100%, 510px);
     text-align: justify;
+}
+
+/* ======================= MEDIA QUERY ======================== */
+
+@media screen and (min-width: 450px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    div.bloc-img img:nth-child(1) {
+        width : 65%;
+        max-width: 75ch;
+        
+        /*
+        max-height: 250px;
+        min-height: 300px;
+        */
+    }
+
+    div.bloc-img img:nth-child(2) {
+       display : none;
+    }
+
+    /** grid */
+    div.bloc-massage {
+        padding : 10px 25px;
+        display: grid;
+        grid-template-columns: 55% auto;
+        grid-template-rows: 2.5rem auto;
+    }
+
+    .bloc-massage div.bloc-titre {
+        grid-column: 1 / span 2;
+        height: 40px;
+    }
+
+    .bloc-massage div.bloc-img {
+        grid-column: 1;
+        min-width: 120px;
+    }
+
+    .bloc-massage p {
+        display : initial;
+        grid-column: 2;
+        padding : 0 0 0 20px;
+        margin-bottom: 0;
+        width: 100%;
+        text-align: justify;
+        color : black;
+        font-size: 1rem;
+        max-width: 65ch;
+    }
 }
