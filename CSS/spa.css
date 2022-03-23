@@ -41,6 +41,7 @@
     border-radius: 15px;
 }
 
+<<<<<<< HEAD
 .wrapper2{
     position: absolute;
     z-index: 0;
@@ -50,6 +51,16 @@
     padding-left: 20px;
     margin-top: 370px;
     border-radius: 15px;
+=======
+.card3 {  
+    margin:0;
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, calc(90%/7));
+    grid-template-rows: repeat(3, 80px);
+    color: #023047;
+>>>>>>> parent of d050cf8... grid page spa modif section 3&4
 }
 
 .wrapper2 h2, p{
@@ -66,8 +77,20 @@
     top: -50px;
 }
 
+<<<<<<< HEAD
 .massage img{
     border-radius: 15px;
+=======
+.card4 {  
+
+    margin:0;
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, calc(90%/7));
+    grid-template-rows: repeat(3, 80px);
+    color: #023047;
+>>>>>>> parent of d050cf8... grid page spa modif section 3&4
 }
 
 @media screen and (min-width: 65em){ /* section version desktop */
