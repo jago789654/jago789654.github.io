@@ -20,8 +20,10 @@ body h1 {
     background-color: var(--primary-color); 
     padding : 0.5rem 0.8rem 0 0.8rem;
     border-radius: 0.4rem;
-    margin: 0  1rem 1rem 1rem;
+    margin: 0  10% 1rem 10%;
     box-shadow: var(--shadow);
+    min-width: 450px;
+
 }
 
 .bloc-massage div.bloc-titre {
@@ -75,11 +77,6 @@ img.rotate-btn {
 /* ======================= MEDIA QUERY ======================== */
 
 @media screen and (min-width: 450px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
     
     div.bloc-img img:nth-child(1) {
         width : 65%;
