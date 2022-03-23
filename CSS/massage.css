@@ -103,8 +103,9 @@ img.rotate-btn {
     }
 
     div.bloc-massage p {
+        line-height: 1.5;
         max-width: 30vw;
-        max-height:30vh;
+        max-height: clamp(30vh, 75%, 40vh);
         text-align: initial;
         display : initial;
         grid-column: 2;
@@ -115,5 +116,6 @@ img.rotate-btn {
         position : absolute;
         top : 45px;
         right : 28px;
+        bottom: 15px;
     }
 }
