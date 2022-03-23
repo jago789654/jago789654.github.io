@@ -3,10 +3,6 @@
     height: 100px;
 }
 
-body {
-    margin : 1rem;
-}
-
 body h1 {
     background-color: var(--secondary-color);
     margin-bottom: 1.5rem;
@@ -68,60 +64,56 @@ img.rotate-btn {
     font-size: 0.9rem;
     display : none;
     margin-bottom: 1rem;
-    width: clamp( 120px, 100%, 510px);
+    width:100%;
     text-align: justify;
 }
 
 /* ======================= MEDIA QUERY ======================== */
 
-@media screen and (min-width: 450px) {
-    body {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+@media screen and (min-width: 30rem) {
+    div.container {
+        margin: 0 auto;
+        width: 75%;
     }
     
     div.bloc-img img:nth-child(1) {
-        width : 65%;
-        max-width: 75ch;
-        
-        /*
-        max-height: 250px;
-        min-height: 300px;
-        */
+        min-width : 35vw;
+        height: auto; 
     }
 
     div.bloc-img img:nth-child(2) {
        display : none;
     }
 
-    /** grid */
+    /* =============== grid =================== */
     div.bloc-massage {
-        padding : 10px 25px;
+        padding : 1rem 2rem;
         display: grid;
         grid-template-columns: 55% auto;
-        grid-template-rows: 2.5rem auto;
+        position : relative;
     }
 
     .bloc-massage div.bloc-titre {
         grid-column: 1 / span 2;
-        height: 40px;
     }
 
     .bloc-massage div.bloc-img {
         grid-column: 1;
-        min-width: 120px;
+        height: clamp(30vh,  auto, 45vh);
     }
 
-    .bloc-massage p {
+    div.bloc-massage p {
+        max-width: 30vw;
+        max-height:30vh;
+        text-align: initial;
         display : initial;
         grid-column: 2;
-        padding : 0 0 0 20px;
-        margin-bottom: 0;
-        width: 100%;
-        text-align: justify;
-        color : black;
+        padding : 0 1rem 0 1.5rem;
         font-size: 1rem;
-        max-width: 65ch;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position : absolute;
+        top : 45px;
+        right : 28px;
     }
 }
