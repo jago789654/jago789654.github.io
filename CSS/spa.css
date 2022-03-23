@@ -2,7 +2,7 @@
  .pad {
     height: 100px;
   }
-
+ 
 /* section */
 .main-section{
     width: 396px;
@@ -14,9 +14,10 @@
 }
 
 .wrapper1{
-    position: absolute;
+    position: absolute; 
     z-index: 0;
-    background-color: #023047;
+    background-color: var(--primary-color);
+    opacity: 90%;
     height: 300px;
     width: 300px;
     padding-left: 20px;
@@ -41,26 +42,16 @@
     border-radius: 15px;
 }
 
-<<<<<<< HEAD
 .wrapper2{
     position: absolute;
     z-index: 0;
-    background-color: #023047;
+    background-color: var(--primary-color);
+    opacity: 90%;
     width:300px;
     height: 300px;
     padding-left: 20px;
     margin-top: 370px;
     border-radius: 15px;
-=======
-.card3 {  
-    margin:0;
-    margin-top: 1rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(7, calc(90%/7));
-    grid-template-rows: repeat(3, 80px);
-    color: #023047;
->>>>>>> parent of d050cf8... grid page spa modif section 3&4
 }
 
 .wrapper2 h2, p{
@@ -77,20 +68,8 @@
     top: -50px;
 }
 
-<<<<<<< HEAD
 .massage img{
     border-radius: 15px;
-=======
-.card4 {  
-
-    margin:0;
-    margin-top: 1rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(7, calc(90%/7));
-    grid-template-rows: repeat(3, 80px);
-    color: #023047;
->>>>>>> parent of d050cf8... grid page spa modif section 3&4
 }
 
 @media screen and (min-width: 65em){ /* section version desktop */
@@ -136,3 +115,4 @@
         top: 30px;
     }
 }
+
