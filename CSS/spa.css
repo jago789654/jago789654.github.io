@@ -2,12 +2,6 @@
  .pad {
     height: 100px;
   }
- 
-/* section */
-.main-section{
-    width: 396px;
-    margin: 10px auto;
-}
 
 .pack1{
     
@@ -53,4 +47,5 @@
 }
 
 @media screen and (min-width: 65em){ /* section version desktop */
+
 
