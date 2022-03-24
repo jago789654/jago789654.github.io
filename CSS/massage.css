@@ -70,7 +70,7 @@ img.rotate-btn {
 
 /* ======================= MEDIA QUERY ======================== */
 
-@media screen and (min-width: 30rem) {
+@media screen and (min-width: 450px) {
     div.container {
         margin: 0 auto;
         width: 75%;
@@ -116,5 +116,12 @@ img.rotate-btn {
         top : 45px;
         right : 28px;
         bottom: 15px;
+    }
+
+    .h1-Lamarre{
+        margin-left: initial;
+        margin-right: initial;
+        margin-left: 15vw;
+        margin-right: 15vw;
     }
 }
