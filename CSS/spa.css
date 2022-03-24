@@ -21,6 +21,7 @@
     color: #023047;
     max-height: 300px;
     padding: 2vw 10vw 2vw 2vw;  
+    box-shadow: var(--shadow);
 }
 
 .img1 {
@@ -32,6 +33,7 @@
     width: 20vw;
     min-width: 150px;
     height: auto;
+    box-shadow: var(--shadow);
 }
 
 .pack2 {
@@ -52,6 +54,7 @@
     color: #023047;
     max-height: 300px;
     padding: 2vw 2vw 2vw 6vw;  
+    box-shadow: var(--shadow);
 }
 
 .img2 {
@@ -63,6 +66,7 @@
     width: 20vw;
     min-width: 150px;
     height: auto;
+    box-shadow: var(--shadow);
 }
 
 
