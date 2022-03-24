@@ -77,7 +77,7 @@ address {
     margin-bottom: 25px;
 }
 
-address h3{
+.div-adresse{
     font-family: var(--title-font);
     color: #023047;
 }
