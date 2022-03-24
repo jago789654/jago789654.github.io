@@ -3,10 +3,6 @@
     height: 100px;
 }
 
-body {
-    margin : 1rem;
-}
-
 body h1 {
     background-color: var(--secondary-color);
     margin-bottom: 1.5rem;
@@ -20,10 +16,8 @@ body h1 {
     background-color: var(--primary-color); 
     padding : 0.5rem 0.8rem 0 0.8rem;
     border-radius: 0.4rem;
-    margin: 0  10% 1rem 10%;
+    margin: 0  1rem 1rem 1rem;
     box-shadow: var(--shadow);
-    min-width: 450px;
-
 }
 
 .bloc-massage div.bloc-titre {
@@ -70,55 +64,57 @@ img.rotate-btn {
     font-size: 0.9rem;
     display : none;
     margin-bottom: 1rem;
-    width: clamp( 120px, 100%, 510px);
+    width:100%;
     text-align: justify;
 }
 
 /* ======================= MEDIA QUERY ======================== */
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 30rem) {
+    div.container {
+        margin: 0 auto;
+        width: 75%;
+    }
     
     div.bloc-img img:nth-child(1) {
-        width : 65%;
-        max-width: 75ch;
-        
-        /*
-        max-height: 250px;
-        min-height: 300px;
-        */
+        min-width : 35vw;
+        height: auto; 
     }
 
     div.bloc-img img:nth-child(2) {
        display : none;
     }
 
-    /** grid */
+    /* =============== grid =================== */
     div.bloc-massage {
-        padding : 10px 25px;
+        padding : 1rem 2rem;
         display: grid;
         grid-template-columns: 55% auto;
-        grid-template-rows: 2.5rem auto;
+        position : relative;
     }
 
     .bloc-massage div.bloc-titre {
         grid-column: 1 / span 2;
-        height: 40px;
     }
 
     .bloc-massage div.bloc-img {
         grid-column: 1;
-        min-width: 120px;
+        /*height: clamp(30vh,  auto, 45vh);*/
     }
 
-    .bloc-massage p {
+    div.bloc-massage p {
+        line-height: 1.5;
+        max-width: 30vw;
+        text-align: initial;
         display : initial;
         grid-column: 2;
-        padding : 0 0 0 20px;
-        margin-bottom: 0;
-        width: 100%;
-        text-align: justify;
-        color : black;
+        padding : 0 1rem 0 1.5rem;
         font-size: 1rem;
-        max-width: 65ch;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position : absolute;
+        top : 45px;
+        right : 28px;
+        bottom: 15px;
     }
 }
