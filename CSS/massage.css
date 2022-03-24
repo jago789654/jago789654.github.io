@@ -99,13 +99,12 @@ img.rotate-btn {
 
     .bloc-massage div.bloc-img {
         grid-column: 1;
-        height: clamp(30vh,  auto, 45vh);
+        /*height: clamp(30vh,  auto, 45vh);*/
     }
 
     div.bloc-massage p {
         line-height: 1.5;
         max-width: 30vw;
-        max-height: clamp(30vh, 75%, 40vh);
         text-align: initial;
         display : initial;
         grid-column: 2;
