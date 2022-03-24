@@ -28,6 +28,8 @@ body h1 {
 
 .bloc-titre h2{
     font-size: 1rem;
+    color: #fbfbff;
+    font-family: var(--title-font);
 }
 
 .bloc-massage div.bloc-img {
@@ -66,6 +68,8 @@ img.rotate-btn {
     margin-bottom: 1rem;
     width:100%;
     text-align: justify;
+    font-family: var(--title-font);
+    color: #fbfbff;
 }
 
 /* ======================= MEDIA QUERY ======================== */
