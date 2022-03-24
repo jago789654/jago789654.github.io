@@ -342,7 +342,7 @@
         text-align: center;
     }
 
-    footer{
+    .footer-marie{
         margin-top: clamp(15rem, 50%, 25rem);
     }
 }
