@@ -3,10 +3,6 @@
     height: 100px;
 }
 
-body {
-    margin : 1rem;
-}
-
 body h1 {
     background-color: var(--secondary-color);
     margin-bottom: 1.5rem;
@@ -22,7 +18,6 @@ body h1 {
     border-radius: 0.4rem;
     margin: 0  1rem 1rem 1rem;
     box-shadow: var(--shadow);
-    opacity: 0.8;
 }
 
 .bloc-massage div.bloc-titre {
@@ -46,7 +41,6 @@ div.bloc-img img:nth-child(1) {
     width : 65vw;
     height : auto;
     flex : 1;
-    opacity: 0.9;
     border-radius: 5px;;
 }
 
@@ -70,6 +64,57 @@ img.rotate-btn {
     font-size: 0.9rem;
     display : none;
     margin-bottom: 1rem;
-    width: clamp( 120px, 100%, 510px);
+    width:100%;
     text-align: justify;
+}
+
+/* ======================= MEDIA QUERY ======================== */
+
+@media screen and (min-width: 30rem) {
+    div.container {
+        margin: 0 auto;
+        width: 75%;
+    }
+    
+    div.bloc-img img:nth-child(1) {
+        min-width : 35vw;
+        height: auto; 
+    }
+
+    div.bloc-img img:nth-child(2) {
+       display : none;
+    }
+
+    /* =============== grid =================== */
+    div.bloc-massage {
+        padding : 1rem 2rem;
+        display: grid;
+        grid-template-columns: 55% auto;
+        position : relative;
+    }
+
+    .bloc-massage div.bloc-titre {
+        grid-column: 1 / span 2;
+    }
+
+    .bloc-massage div.bloc-img {
+        grid-column: 1;
+        /*height: clamp(30vh,  auto, 45vh);*/
+    }
+
+    div.bloc-massage p {
+        line-height: 1.5;
+        max-width: 30vw;
+        text-align: initial;
+        display : initial;
+        grid-column: 2;
+        padding : 0 1rem 0 1.5rem;
+        font-size: 1rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position : absolute;
+        top : 45px;
+        right : 28px;
+        bottom: 15px;
+    }
 }
