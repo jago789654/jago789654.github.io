@@ -113,6 +113,8 @@ img.rotate-btn {
         display : initial;
         grid-column: 2;
         padding : 0 1rem 0 1.5rem;
+        padding-top: initial;
+        padding-top: 1.5rem;
         font-size: 1rem;
         overflow-y: auto;
         overflow-x: hidden;
@@ -127,5 +129,10 @@ img.rotate-btn {
         margin-right: initial;
         margin-left: 15vw;
         margin-right: 15vw;
+    }
+
+    .bloc-titre h2{
+        font-size: initial;
+        font-size: 1.5rem;
     }
 }
